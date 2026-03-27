@@ -134,8 +134,8 @@
   },
   "portsAttributes": {
     // Available when running task "Start" from VS Code Tasks.
-    "3000": {
-      "label": "com-yingw787"
+    "4321": {
+      "label": "com-yingw787-bytes"
     }
   }
 }
