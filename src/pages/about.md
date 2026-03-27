@@ -7,15 +7,16 @@ Hi, I'm Ying. I'm a software engineer and product owner who loves to talk shop
 and ship product. This is my professional online platform where I document the
 memorable experiences in my career, that may deliver value to you as well.
 
-I commonly publish my posts on <https://lobste.rs> and [Hacker
+I commonly publish my posts on [Lobsters](https://lobste.rs) and [Hacker
 News](https://news.ycombinator.com). Feel free to repost or share any and all
 posts here at your liberty, or engage in the discussion threads backlinked on
 these posts if they're active and engaging. I care more about getting more
 people to see my content, than reaping karma.
 
-I don't have comments enabled on my blog. I used to, but Disqus sent ads my way
-and I haven't found a replacement I liked. In any case, I think dynamic,
-server-loaded content might not be the best fit for a static website.
+I don't have comments enabled on my blog. I used to, but [Disqus sent ads my
+way](/posts/2020/01/26/get_rid_of_disqus) and I haven't found a replacement I
+liked. In any case, I think dynamic, server-loaded content might not be the best
+fit for a static website.
 
 Feel free to reach out to me at <ying@paintcreeksoftware.com>. I'm always
 looking to improve my work, and I'd love to hear what you think. Also cool to
