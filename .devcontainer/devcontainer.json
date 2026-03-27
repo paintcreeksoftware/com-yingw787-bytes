@@ -56,7 +56,8 @@
         "SanjulaGanepola.github-local-actions",
         "tamasfe.even-better-toml",
         "tomoki1207.pdf",
-        "xabikos.javascriptsnippets"
+        "xabikos.javascriptsnippets",
+        "astro-build.astro-vscode"
       ],
       "settings": {
         "editor.wordWrap": "wordWrapColumn",
