@@ -1,6 +1,6 @@
 ---
 title: "#todayilearned: Julian/Georgian calendar mismatches in 'pyspark'"
-pubDatetime: 2018-10-31T00:00:00Z
+pubDatetime: 2018-10-31T12:00:00Z
 description: Debugging Julian/Gregorian calendar mismatches encountered in PySpark date handling.
 draft: false
 tags:
