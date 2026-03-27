@@ -78,6 +78,6 @@ know what I don't know in this domain.
 This does give me something to purse, though. Now I have a problem I can solve.
 
 I went ahead and purchased Paul Butcher's [Seven Concurrency Models in Seven
-Weeks](https://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks),
+Weeks](https://pragprog.com/titles/pb7con/seven-concurrency-models-in-seven-weeks/),
 and I'll try and communicate my learned understanding of each one in a series of
 blog posts.
