@@ -1,0 +1,10 @@
+---
+title: First Post
+pubDatetime: 2018-10-27T00:00:00Z
+description: My first post.
+draft: false
+tags:
+  - general
+---
+
+It's great to be online! This site will be where my software engineering, product management, and (wan|en)trepreneurship material will go.
