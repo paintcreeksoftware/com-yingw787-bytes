@@ -24,7 +24,7 @@ sudo sysctl fs.inotify.max_user_instances=8192
 popd || exit 1
 
 # Install system dependencies as exact.
-pnpm ci
+pnpm install --frozen-lockfile
 
 # Install Claude Code.
 npm install -g @anthropic-ai/claude-code

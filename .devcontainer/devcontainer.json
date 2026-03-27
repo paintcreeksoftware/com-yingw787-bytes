@@ -130,9 +130,7 @@
     // `firebase-tools` required for deploying to Firebase.
     "ghcr.io/devcontainers-extra/features/firebase-cli:2": {},
     // `gcloud` required for deploying to Google Cloud.
-    "ghcr.io/jajera/features/gcloud-cli:1": {},
-    // `astro-cli` is required for running the Astro frontend locally.
-    "ghcr.io/astronomer/devcontainer-features/astro-cli:1": {}
+    "ghcr.io/jajera/features/gcloud-cli:1": {}
   },
   "portsAttributes": {
     // Available when running task "Start" from VS Code Tasks.
