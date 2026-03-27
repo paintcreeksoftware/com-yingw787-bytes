@@ -2,6 +2,7 @@
 title: "Concurrency with Python: CSP and Coroutines"
 pubDatetime: 2019-02-09T12:00:00Z
 description: Communicating Sequential Processes and Python coroutines as a structured approach to concurrency.
+featured: true
 draft: false
 tags:
   - python
@@ -265,7 +266,7 @@ as an inspiration for how subinterpreters may communicate with one another:
 > Concurrency is a challenging area of software development. Decades of research
 > and practice have led to a wide variety of concurrency models, each with
 > different goals. Most center on correctness and usability.
-
+>
 > One class of concurrency models focuses on isolated threads of execution that
 > interoperate through some message passing scheme. A notable example is
 > Communicating Sequential Processes (CSP) (upon which Go's concurrency is

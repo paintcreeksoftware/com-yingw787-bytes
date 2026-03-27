@@ -3,7 +3,7 @@ async function loadGoogleFont(
   text: string,
   weight: number
 ): Promise<ArrayBuffer> {
-  const API = `https://fonts.googleapis.com/css2?family=${font}:wght@${weight}&text=${encodeURIComponent(text)}`;
+  const API = `https://fonts.googleapis.com/css2?family=${font}:ital,opsz,wght@0,17..18,${weight}..${weight}&text=${encodeURIComponent(text)}&display=swap`;
 
   const css = await (
     await fetch(API, {
@@ -15,7 +15,7 @@ async function loadGoogleFont(
   ).text();
 
   const resource = css.match(
-    /src: url\((.+?)\) format\('(opentype|truetype)'\)/
+    /src: url\((.+?)\) format\('(opentype|truetype|woff2)'\)/
   );
 
   if (!resource) throw new Error("Failed to download dynamic font");
@@ -36,16 +36,16 @@ async function loadGoogleFonts(
 > {
   const fontsConfig = [
     {
-      name: "IBM Plex Mono",
-      font: "IBM+Plex+Mono",
+      name: "Google Sans",
+      font: "Google+Sans",
       weight: 400,
       style: "normal",
     },
     {
       name: "IBM Plex Mono",
       font: "IBM+Plex+Mono",
-      weight: 700,
-      style: "bold",
+      weight: 400,
+      style: "normal",
     },
   ];
 

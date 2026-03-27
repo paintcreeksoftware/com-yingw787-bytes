@@ -2,6 +2,7 @@
 title: A Pythonista's Review of Haskell
 pubDatetime: 2020-01-30T12:00:00Z
 description: "A Python developer's honest review of Haskell: the type system, tooling, learning curve, and practical tradeoffs."
+featured: true
 draft: false
 tags:
   - haskell

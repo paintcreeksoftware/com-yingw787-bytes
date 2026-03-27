@@ -2,6 +2,7 @@
 title: Monads aren't as hard as you think
 pubDatetime: 2019-12-06T12:00:00Z
 description: A practical, approachable introduction to monads in Python — no category theory required.
+featured: true
 draft: false
 tags:
   - python
