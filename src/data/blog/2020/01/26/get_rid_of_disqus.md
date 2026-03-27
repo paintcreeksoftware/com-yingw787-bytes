@@ -15,8 +15,10 @@ comments sections of my blogs_. I hadn't noticed since I use [uBlock
 Origin](https://github.com/gorhill/uBlock/) by default on desktop Firefox. I'm
 also not sure whether I have recently reached a threshold of viewers, and now
 fit some threshold of monetization. In any case, on Saturday, January 25th, 2020
-at 11:54PM Eastern Time, I took [this full-window desktop screenshot](ugh.png)
-using [Firefox Screenshots](https://screenshots.firefox.com/).
+at 11:54PM Eastern Time, I took this full-window desktop screenshot using
+[Firefox Screenshots](https://screenshots.firefox.com/):
+
+![ugh](ugh.png)
 
 My sincere apologies to everybody reading this blog. I find this behavior from
 Disqus to be a massive betrayal of trust. This blog has not been monetized and
