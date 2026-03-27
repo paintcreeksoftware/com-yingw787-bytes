@@ -88,7 +88,7 @@ effectively absorb or mitigate these risks to development velocity.
 
 ---
 
-## Solution: Containerization!
+## Solution: Containerization
 
 Taking yet another page from our QA team, which had good experiences with Docker
 and containerizing our database for testing purposes, I decided to use Docker
