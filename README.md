@@ -42,7 +42,7 @@ on others as well._
 
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis/https-bytes-yingw787-com/xv2v69r2x7?form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
+    <!-- <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg"> -->
   </a>
 </p>
 
