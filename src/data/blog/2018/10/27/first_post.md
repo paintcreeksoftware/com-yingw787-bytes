@@ -1,7 +1,7 @@
 ---
 title: First Post
 pubDatetime: 2018-10-27T00:00:00Z
-description: My first post.
+description: Hello World!
 draft: false
 tags:
   - general
