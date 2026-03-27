@@ -1,0 +1,24 @@
+---
+title: DevOps is an Ice Rink
+pubDatetime: 2020-04-17T12:00:00Z
+description: "Using the ice rink as an analogy for DevOps: high learning curve, but infrastructure becomes natural with practice."
+draft: false
+tags:
+  - postgresql
+  - devops
+  - aws
+  - snippets
+---
+
+I recently had the privilege of writing for [Built In's](https://builtin.com/)
+[Expert Contributor Network](https://builtin.com/contributors), and just
+published my first post there. It chronicles my experience over the past one and
+a half months struggling with DevOps, which I discussed in more detail in my
+TinyDevCRM hourly logs.
+
+You can see the post
+[here](https://builtin.com/software-engineering-perspectives/devops-aws).
+
+I enjoyed the experience of working with Built In's content editors, and I
+noticed an improvement in the quality and direction of my writing. I look
+forward to working with them in the future :smile:
