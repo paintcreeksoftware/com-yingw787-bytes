@@ -30,3 +30,5 @@ public/pagefind
 .pnpm-store
 
 .claude/settings.local.json
+
+firebase-debug.log
