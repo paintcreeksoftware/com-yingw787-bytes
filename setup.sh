@@ -29,4 +29,4 @@ pnpm install --frozen-lockfile
 # Install Claude Code.
 npm install -g @anthropic-ai/claude-code
 
-pnpm install firebase-tools
+pnpm install -g firebase-tools
