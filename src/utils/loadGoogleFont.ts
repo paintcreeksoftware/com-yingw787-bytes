@@ -3,7 +3,7 @@ async function loadGoogleFont(
   text: string,
   weight: number
 ): Promise<ArrayBuffer> {
-  const API = `https://fonts.googleapis.com/css2?family=${font}:ital,opsz,wght@0,17..18,${weight}..${weight}&text=${encodeURIComponent(text)}&display=swap`;
+  const API = `https://fonts.googleapis.com/css2?family=${font}:wght@${weight}&text=${encodeURIComponent(text)}`;
 
   const css = await (
     await fetch(API, {
@@ -15,7 +15,7 @@ async function loadGoogleFont(
   ).text();
 
   const resource = css.match(
-    /src: url\((.+?)\) format\('(opentype|truetype|woff2)'\)/
+    /src: url\((.+?)\) format\('(opentype|truetype)'\)/
   );
 
   if (!resource) throw new Error("Failed to download dynamic font");
