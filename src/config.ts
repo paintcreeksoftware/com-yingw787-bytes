@@ -4,7 +4,6 @@ export const SITE = {
   profile: "https://yingw787.com/",
   desc: "Personal blog on technical deep dives and bugfixes.",
   title: "Bytes by Ying",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 4,
