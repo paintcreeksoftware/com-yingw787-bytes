@@ -26,10 +26,19 @@ jobs:
       - name: "☁️ Checkout repository"
         uses: actions/checkout@v4
 
+      - name: "🔒 Verify pnpm version matches package.json"
+        run: |
+          EXPECTED=$(node -p "require('./package.json').packageManager.split('@')[1].split('+')[0]")
+          PINNED="10.33.0"
+          if [ "$EXPECTED" != "$PINNED" ]; then
+            echo "pnpm version mismatch: package.json has $EXPECTED but workflow pins $PINNED"
+            exit 1
+          fi
+
       - name: "📦 Install pnpm"
         uses: pnpm/action-setup@v4
         with:
-          version: 10.11.1
+          version: 10.33.0
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -45,6 +54,9 @@ jobs:
 
       - name: "📝 Checking code format"
         run: pnpm run format:check
+
+      - name: "🔍 Type check"
+        run: pnpm astro check
 
       - name: "🚀 Build the project"
         run: pnpm run build
